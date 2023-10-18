@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>StyleSphere</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact</a></li> 
+                <li><a class="active" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="page-header">
+        <h2>Cart</h2>
+        
+        <p>Get coupons and total bill here</p>
+        
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+              <tr>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Image</th>
+                <th>Subtotal</th>
+                <th>Remove</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Batman T-Shirt for men</td>
+                    <td>₹500</td>
+                    <td><input type="number" value="1"></td>
+                    <td><img src="img/s1.webp" alt=""></td>
+                    <td>₹500</td>
+                    <td><i class="fa-solid fa-xmark"></i></td>
+                </tr>
+                <tr>
+                    <td>Formal Trouser for men</td>
+                    <td>₹700</td>
+                    <td><input type="number" value="1"></td>
+                    <td><img src="img/s5.jpg" alt=""></td>
+                    <td>₹700</td>
+                    <td><i class="fa-solid fa-xmark"></i></td>
+                </tr>
+            </tbody>
+          </table>
+          
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupons here</h3>
+            <div>
+                <input type="text" placeholder="Enter your coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <table>
+                <tr>
+                    <td>Cart Total</td>
+                    <td>₹1200</td>
+                </tr>
+                <tr>
+                    <td>Shipment fee</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td>Gst</td>
+                    <td>₹60</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>₹1260</td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to Checkout</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Locations avaiable: </strong>Bengaluru, Kolkata, Hyderabad, Chennai </p>
+            <p><strong>Phone: </strong>+91-123456789</p>
+            <p><strong>Email: </strong>  StyleSphere@gmail.com</p>
+            <div class="follow">
+                <h4>Follow us at:</h4>
+                <div class="icon">
+                    <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com"><i class="fa-brands fa-square-instagram" style="color: #ff0080;"></i></a>
+                    <a href="https://www.youtube.com"><i class="fa-brands fa-youtube" style="color: #ff0000;"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="./about.html">About us</a>
+            <a href="./contact.html">Contact us</a>
+        </div>
+        <div class="copyright">
+            StyleSphere
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
